@@ -242,33 +242,82 @@
   </h1>
   <form id="contact1">
 
-      <div class="form-group row">
-        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-        <div class="col-sm-10">
-          <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-        </div>
-      </div>
-      <div class="form-group row">
-        <label for="inputPassword3" class="col-sm-2 col-form-label">Name</label>
-        <div class="col-sm-6">
-          <input type="text" class="form-control" id="inputPassword3" placeholder="Enter your name">
-        </div>
-      </div>
-      <div class="form-group row">
-        <label for="inputPassword3" class="col-sm-2 col-form-label">Subjuct</label>
-        <div class="col-sm-10">
-          <input type="text" class="form-control" id="inputPassword3" placeholder="Mention your purpose">
-        </div>
-      </div>
   
-      <div class="mb-3 ">
-        <label class="col-sm-2 col-form-label">Message</label>
-        <div class="col-sm-10">
-          <textarea class="form-control" placeholder="Enter your message" required></textarea>
-  
-  
+
+
+
+
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
-      </div></div>
+
+        <div class="form-group">
+          <label for="exampleInputEmail1">Name</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputEmail1">subject</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <a href="mailto:rauniyarbind@gmail.com">Click to email</a>"  button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        
+          <div>
+            emailHelp
+            <table width="400" border="0" align="center" cellpadding="3" cellspacing="1">
+              <tr>
+              <td>Contact Form </td>
+              </tr>
+              </table>
+              
+              <table width="400" border="0" align="center" cellpadding="0" cellspacing="1">
+              <tr>
+              <td><form name="form1" method="post" action="send_contact.php">
+              <table width="100%" border="0" cellspacing="1" cellpadding="3">
+              <tr>
+              <td width="16%">Subject</td>
+              <td width="2%">:</td>
+              <td width="82%"><input name="subject" type="text" id="subject" size="50"></td>
+              </tr>
+              <tr>
+              <td>Detail</td>
+              <td>:</td>
+              <td><textarea name="detail" cols="50" rows="4" id="detail"></textarea></td>
+              </tr>
+              <tr>
+              <td>Name</td>
+              <td>:</td>
+              <td><input name="name" type="text" id="name" size="50"></td>
+              </tr>
+              <tr>
+              <td>Email</td>
+              <td>:</td>
+              <td><input name="customer_mail" type="text" id="customer_mail" size="50"></td>
+              </tr>
+              <tr>
+              <td> </td>
+              <td> </td>
+              <td><input type="submit" name="Submit" value="Submit"> <input type="reset" name="Submit2" value="Reset"></td>
+              </tr>
+              </table>
+              </form>
+              </td>
+              </tr>
+              </table>
+              
+              
+          </div>
+
 
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
